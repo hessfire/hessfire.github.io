@@ -17,7 +17,7 @@ body::before {
   z-index: -1;
   pointer-events: none;
   /*background: linear-gradient(rgba(0, 0, 255, .75), rgba(255, 255, 0, .75));*/
-  background: url('https://images5.alphacoders.com/407/407909.jpg');
+  background: url("407909.jpg");
   background-size: cover;
 }
 
