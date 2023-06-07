@@ -17,7 +17,7 @@ body::before {
   z-index: -1;
   pointer-events: none;
   /*background: linear-gradient(rgba(0, 0, 255, .75), rgba(255, 255, 0, .75));*/
-  background: url("407909.jpg");
+  background: url('https://images5.alphacoders.com/407/407909.jpg');
   background-size: cover;
 }
 
@@ -105,5 +105,9 @@ body::before {
 }
 .profile-card__social a.steam {
   background: linear-gradient(45deg, #000000, #3b4652);
+  box-shadow: 0 4px 30px rgba(21, 13, 27, 0.616);
+}
+.profile-card__social a.github {
+  background: linear-gradient(45deg, #121a1a, #1f2e2e);
   box-shadow: 0 4px 30px rgba(21, 13, 27, 0.616);
 }
