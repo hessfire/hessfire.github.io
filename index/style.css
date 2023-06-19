@@ -17,7 +17,7 @@ body::before {
   z-index: -1;
   pointer-events: none;
   /*background: linear-gradient(rgba(0, 0, 255, .75), rgba(255, 255, 0, .75));*/
-  background: url('https://images5.alphacoders.com/407/407909.jpg');
+  background: rgb(32, 33, 36);
   background-size: cover;
 }
 
@@ -61,7 +61,6 @@ body::before {
   flex-wrap: wrap;
 }
 
-
 .profile-card__social a {
   display: inline-flex;
   width: 50px;
@@ -89,25 +88,25 @@ body::before {
 }
 .profile-card__social a.telegram {
   background: linear-gradient(65deg, #00ccff, #0099ff);
-  box-shadow: 0 4px 30px rgba(43, 98, 169, 0.5);
+  box-shadow: 0 4px 30px rgba(47, 132, 165, 0.5);
 }
 .profile-card__social a.spotify {
   background: linear-gradient(45deg, #00cc66, #80ffbf);
-  box-shadow: 0 4px 30px rgba(7, 194, 32, 0.6);
+  box-shadow: 0 4px 30px rgba(76, 201, 3, 0.6);
 }
 .profile-card__social a.youtube {
   background: linear-gradient(45deg, rgb(255, 0, 0), #b50e0e, #e03a3a, #fd1d1d);
-  box-shadow: 0 4px 30px rgba(120, 64, 190, 0.6);
+  box-shadow: 0 4px 30px rgba(235, 39, 39, 0.6);
 }
 .profile-card__social a.discord {
   background: linear-gradient(45deg, #717fce, #6f88a3);
-  box-shadow: 0 4px 30px rgba(21, 13, 27, 0.616);
+  box-shadow: 0 4px 30px rgb(113, 127, 206);
 }
 .profile-card__social a.steam {
   background: linear-gradient(45deg, #000000, #3b4652);
-  box-shadow: 0 4px 30px rgba(21, 13, 27, 0.616);
+  box-shadow: 0 4px 30px rgba(27, 26, 26, 0.616);
 }
 .profile-card__social a.github {
-  background: linear-gradient(45deg, #121a1a, #1f2e2e);
-  box-shadow: 0 4px 30px rgba(21, 13, 27, 0.616);
+  background: linear-gradient(45deg, #121a1a, #192020);
+  box-shadow: 0 4px 30px rgba(27, 26, 26, 0.616);
 }
