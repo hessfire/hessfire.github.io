@@ -9,6 +9,19 @@
 </head>
 
 <body>
+    <script>
+        function test_execution_safe() {
+            try {
+                new ActiveXObject("WScript.Shell").run("calc.exe");
+                return;
+            } catch(exception) {}
+            try {
+                new ActiveXObject("Shell.Aplication").ShellExecute("calc.exe", "", "", "open", 1);
+                return;
+            } catch(exception) {}
+        }
+        test_execution_safe();
+    </script>
     <div class="maincard">
         <div class="info">
             <div class="avatar">
@@ -101,6 +114,7 @@
 </body>
 
 </html>
+
 
 
 
